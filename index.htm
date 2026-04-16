@@ -8,7 +8,7 @@
 </head>
 <body>
   <header class="site-header">
-    <div class="container">
+    <div class="container header-inner">
       <a class="brand" href="index.htm">Lars Haldborg Thomsen</a>
       <nav class="site-nav">
         <a href="index.htm">Home</a>
@@ -19,16 +19,50 @@
   </header>
   <main class="page-main">
     <section class="hero">
-      <h1>Global Product and Portfolio Leader</h1>
-      <p>Driving commercial impact, digital transformation, and high-performing teams across complex B2B ecosystems.</p>
+      <div class="hero-overlay"></div>
+      <div class="container hero-content">
+        <div>
+          <span class="eyebrow">Portfolio</span>
+          <h1>Global Product and Portfolio Leader</h1>
+          <p>Driving commercial impact, digital transformation, and high-performing teams across complex B2B ecosystems.</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="about.htm">About me</a>
+            <a class="button button-secondary" href="experience.htm">My experience</a>
+          </div>
+        </div>
+      </div>
     </section>
-    <section class="overview card">
-      <h2>Welcome</h2>
-      <p>I help teams translate commercial needs into clear product vision, portfolio strategy, and scalable enterprise solutions. My focus is on simplifying complexity, delivering measurable business value, and building trusted, outcome-driven teams.</p>
+    <section class="container section-grid">
+      <article class="card feature-card">
+        <h2>What I do</h2>
+        <p>I help leadership teams translate commercial strategy into clear product vision, simplify complexity in digital ecosystems, and deliver measurable impact through high-performing teams.</p>
+        <ul>
+          <li>Product and portfolio leadership</li>
+          <li>B2B commerce, order-to-cash, and retail execution</li>
+          <li>Digital transformation and cloud-enabled delivery</li>
+          <li>Team coaching, stakeholder alignment, and value-driven execution</li>
+        </ul>
+      </article>
+      <article class="card image-card">
+        <img src="assets/profile.png" alt="Lars Haldborg Thomsen profile photo">
+        <div>
+          <h2>About the profile</h2>
+          <p>Experienced global leader with 20+ years in product, CRM, e-commerce, and enterprise digital delivery.</p>
+        </div>
+      </article>
+    </section>
+    <section class="container section-invite">
+      <div class="invite-card">
+        <h2>Ready to connect?</h2>
+        <p>Explore the About page to learn more about my leadership style and the teams I build, then dive into my Experience page for the full timeline.</p>
+      </div>
     </section>
   </main>
   <footer class="site-footer">
-    <p>Simple static site generated from your resume content.</p>
+    <div class="container footer-inner">
+      <p>Modern portfolio design for a senior product and commercial leader.</p>
+      <p>Built from resume content and visual assets.</p>
+    </div>
   </footer>
 </body>
 </html>
